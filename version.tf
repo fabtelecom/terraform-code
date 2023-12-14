@@ -9,7 +9,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = var.my_region
+  region  = "us-east-1"
   profile = var.profile
 }
-#This file is already modified 
+#This aws version is already modified 
